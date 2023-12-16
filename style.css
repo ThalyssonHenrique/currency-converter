@@ -6,7 +6,7 @@
 }
 
 .logo-gif {
-    width: 200px;
+    width: 250px;
     display: block;
     margin: auto;
 }
@@ -100,7 +100,7 @@ section {
 
 }
 
-.symbol-brazil {
+.convert-from-image {
     margin-top: 8px;
 
 }
@@ -113,7 +113,7 @@ section {
     margin-bottom: 15px;
 }
 
-.currency {
+.convert-from, #converted-currency-text {
     color: #fff;
     font-size: 14px;
     font-weight: 400;
