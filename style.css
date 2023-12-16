@@ -1,0 +1,129 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-gif {
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+body {
+    background-color: #fff;
+    ;
+}
+
+main {
+    border-radius: 5px;
+    background: #4573e3;
+    width: 320px;
+    display: block;
+    margin: auto;
+    padding: 15px;
+}
+
+label {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 1.5px;
+    
+
+}
+
+select,
+input {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #BBB;
+    appearance: none;
+    padding: 6px;
+    color: #000;
+    outline: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.input-value::placeholder{
+    font-size: 13px;
+    letter-spacing: 2px;
+    opacity: 0.6;
+    font-weight: 400;
+    text-align: center;
+    appearance: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;}
+
+button {
+    background-color: #2e51ac;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    color: #ffffff;
+    height: 45px;
+    margin: 23px 0;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.4;
+}
+
+section {
+    border-radius: 20px;
+    border: 1px solid #fff;
+}
+
+.currency-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.symbol-brazil {
+    margin-top: 8px;
+
+}
+
+.arrow-icon {
+    width: 35px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.currency {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.convert-value, .converted-value {
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 18px;
+    margin-bottom: 8px;
+}
